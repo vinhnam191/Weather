@@ -1,0 +1,20 @@
+.current-day{
+    display: flex;
+    flex-direction: column;
+}
+.current-day h1,.current-day-2nd-div-header{
+    color: #f1957b;
+}
+.current-day-2nd-div{
+    margin-top: 20px;
+}
+.current-day-2nd-div-header{
+    margin-bottom: 20px;
+}
+.current-day-2nd-div-child{
+    margin-bottom: 8px;
+}
+.current-day-detail div{
+    display: inline-block;
+    margin-right: 48px;
+}

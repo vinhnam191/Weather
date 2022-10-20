@@ -1,0 +1,37 @@
+.side-bar{
+    background-color: #f1957b;
+    border-right: 2px solid #003;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+.search-bar{
+    border: none;
+    border-radius: 12px;
+    margin-top: 10%;
+    width: 80%;
+    padding: 6px 12px;
+}
+.search-bar:focus-visible{
+    outline: none;
+}
+.enter2search{
+    color: #fff0ec;
+    text-align: right;
+    font-size: 12px;
+    margin-left: 240px;
+}
+.search-city-container{
+    background-color: #fff;
+    border-radius: 12px;
+    margin-top: 20px;
+    width: 80%;
+    height: 16%;
+    font-size: 14px;
+}
+.city-info,.city-temp,.city-wind,.city-geo{
+    display: flex;
+    padding: 8px 0 0 8px;
+    justify-content: flex-start;
+}
